@@ -41,10 +41,10 @@ It will also install the following static libraries (using the Windows formattin
 
 I have no plans to modify the underlying/original source code.
 
-- [ ] I need to demonstrate a "test" program that successfully links against this library on more problematic platforms (e.g., Windows/MSVC)
+- [x] I need to demonstrate a "test" program that successfully links against this library on more problematic platforms (e.g., Windows/MSVC) (see: https://github.com/Tythos/clabox)
 
-- [ ] It would be useful to verify the simplier demonstrations from the CLAPACK FAQ (https://www.netlib.org/clapack/faq.html)
+- [x] It would be useful to verify the simplier demonstrations from the CLAPACK FAQ (https://www.netlib.org/clapack/faq.html) (see: https://github.com/Tythos/clabox)
 
-- [ ] I do think it would be useful to support the build and installation of dynamic libraries. This would likely involve modifications to multiple `CMakeLists.txt` files and related resources.
+- [x] I do think it would be useful to support the build and installation of dynamic libraries. This would likely involve modifications to multiple `CMakeLists.txt` files and related resources. (May be OBE with working demonstration against static libraries.)
 
 - [ ] Ultimately, the success of these efforts will be determined by how well integrated they can be as an implementation for downstream bindings in a tensor library I use (e.g., as a drop-in replacement for OpenBLAS): https://github.com/xtensor-stack/xtensor-blas
